@@ -1,5 +1,5 @@
 /* Add your JavaScript to this file */
-window.addEventListener('load', function(){
+window.addEventListener('load', function(){ 
     let submitButton = document.querySelector('.newsletter button');
     let message = document.querySelector('.message');
     const emailField = document.getElementById('email');

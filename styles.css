@@ -67,6 +67,7 @@ li {
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+  align-self: center;
 
 }
 .cards{
@@ -115,10 +116,20 @@ li {
     font-size: 18px;
 }
 
-.stories img{
+.article-body{
+    flex: 1;
+    margin: 20px;
+
+}
+.stories article{
+    display: flex;
+    margin: 20px 0;
+}
+
+.stories article img{
     border-radius: 50%;
-    height:200px ;
-    width: 200px;
+    height:150px ;
+    width: 150px;
 }
 
 .stories a {
@@ -165,3 +176,6 @@ footer {
     background-color: #4A5568;
     color: white;
 }
+
+
+  
